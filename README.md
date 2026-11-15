@@ -22,7 +22,7 @@ Convocado es una red social deportiva cuyo objetivo es permitir que los jugadore
 
 ## Bloque Asignado
 
-**Grupo 01**
+**Cupo y revisión**
 
 - **Sentencia 1 — Control de cupo al aceptar solicitudes:**
   > *"Si el capitán intenta aceptar una solicitud cuando ya no queda lugar, el sistema informa que el cupo está completo e impide una nueva aceptación."*
@@ -78,6 +78,16 @@ El desarrollo del proyecto se organizó distinguiendo tres niveles de trabajo:
 | Aplicación / Entorno | Modelo | Uso Realizado | Cambios Solicitados |
 | :--- | :--- | :--- | :--- |
 | **Antigravity** | **Modelo observado durante el desarrollo:** Gemini 4 Argon (Medium) <br><br> **Modelo en etapas anteriores:** modelo no informado | Redacción estructurada del análisis funcional, especificación textual de los diagramas de flujo, elaboración del wireframe textual, generación inicial de código HTML, CSS y JavaScript para los diagramas visuales y la landing page, adaptación responsive y redacción del `README.md`. | Alineación estricta a la consigna eliminando suposiciones adicionales, separación entre consecuencias obligatorias y decisiones del grupo, eliminación de sección duplicada, ajuste del wireframe, sustitución de iconos genéricos por `assets/logo.webp`, aplicación de la paleta del logo oficial, cambio dinámico de botones *"Expandir todo"* / *"Contraer todo"*, adaptación responsive e incorporación de integrantes y trazabilidad de IA. |
+
+## Aportes de Silvia Podberezski
+
+- **Aplicación:** Cursor. **Modelo:** Cursor Grok 4.6 Medium.
+- **Rol:** revisión de la consigna y de los errores del TP.
+- **Qué se pidió al agente:** agregar en la landing el bloque asignado y el origen IFTS 16, y corregir en el README el bloque asignado.
+- **Prompt enviado:**
+  > 1. En index.html, en el Hero, justo debajo del título "Convocado" y dentro de la misma columna, agregá una línea chica: "Bloque: Cupo y revisión · Startup creada en el IFTS 16". Usá el mismo estilo discreto que "STARTUP DEPORTIVA", en una sola línea, sin cambiar el tamaño del título ni del logo.
+  >
+  > 2. En README.md, en la sección "Bloque Asignado", reemplazá "**Grupo 01**" por "**Cupo y revisión**". Dejá las dos sentencias como están.
 
 ---
 
