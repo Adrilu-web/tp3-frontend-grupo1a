@@ -83,11 +83,13 @@ El desarrollo del proyecto se organizó distinguiendo tres niveles de trabajo:
 
 - **Aplicación:** Cursor. **Modelo:** Cursor Grok 4.6 Medium.
 - **Rol:** revisión de la consigna y de los errores del TP.
-- **Qué se pidió al agente:** agregar en la landing el bloque asignado y el origen IFTS 16, y corregir en el README el bloque asignado.
+- **Qué se pidió al agente:** agregar en la landing el bloque asignado y el origen IFTS 16, y corregir en el README el bloque asignado; reescribir el texto del rombo de decisión del Diagrama 2 para eliminar la ambigüedad entre Y/O, manteniendo el código.
 - **Prompt enviado:**
   > 1. En index.html, en el Hero, justo debajo del título "Convocado" y dentro de la misma columna, agregá una línea chica: "Bloque: Cupo y revisión · Startup creada en el IFTS 16". Usá el mismo estilo discreto que "STARTUP DEPORTIVA", en una sola línea, sin cambiar el tamaño del título ni del logo.
   >
   > 2. En README.md, en la sección "Bloque Asignado", reemplazá "**Grupo 01**" por "**Cupo y revisión**". Dejá las dos sentencias como están.
+- **Prompt enviado (2):**
+  > 1. En index.html y en diagramas.html, en el rombo de decisión del Diagrama 2, reemplazá el texto "¿El jugador autorizó la solicitud Y la valoración conocida es menor que 4 O la distancia al equipo es mayor o igual a 10 km?" por: "¿El jugador autorizó la solicitud Y se cumple al menos una de estas condiciones: valoración conocida menor que 4, o distancia al equipo de 10 km o más?". Hacé el mismo reemplazo en la fila "Decisión:" de la tabla del desplegable 2B de index.html. El código que se muestra debe seguir siendo exactamente: autorizoSolicitud && (valoracionConocida < 4 || distanciaAlEquipoKm >= 10).
 
 ---
 
